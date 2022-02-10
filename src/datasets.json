@@ -1,0 +1,462 @@
+{
+    "ECG200": {
+        "path": "data/raw/UCRArchive_2018/ECG200/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            1
+        ],
+        "outlier_labels": [
+            -1
+        ]
+    },
+    "ChlorineConcentration": {
+        "path": "data/raw/UCRArchive_2018/ChlorineConcentration/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            1
+        ],
+        "outlier_labels": [
+            2,
+            3
+        ]
+    },
+    "GunPoint": {
+        "path": "data/raw/UCRArchive_2018/GunPoint/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            1
+        ],
+        "outlier_labels": [
+            2
+        ]
+    },
+    "ECGFiveDays": {
+        "path": "data/raw/UCRArchive_2018/ECGFiveDays/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            1
+        ],
+        "outlier_labels": [
+            2
+        ]
+    },
+    "Wafer": {
+        "path": "data/raw/UCRArchive_2018/Wafer/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            1
+        ],
+        "outlier_labels": [
+            -1
+        ]
+    },
+    "Adiac": {
+        "path": "data/raw/UCRArchive_2018/Adiac/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            9.0
+        ],
+        "outlier_labels": [
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0,
+            6.0,
+            7.0,
+            8.0,
+            10.0,
+            11.0,
+            12.0,
+            13.0,
+            14.0,
+            15.0,
+            16.0,
+            17.0,
+            18.0,
+            19.0,
+            20.0,
+            21.0,
+            22.0,
+            23.0,
+            24.0,
+            25.0,
+            26.0,
+            27.0,
+            28.0,
+            29.0,
+            30.0,
+            31.0,
+            32.0,
+            33.0,
+            34.0,
+            35.0,
+            36.0,
+            37.0
+        ]
+    },
+    "ArrowHead": {
+        "path": "data/raw/UCRArchive_2018/ArrowHead/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            2
+        ],
+        "outlier_labels": [
+            0,
+            1
+        ]
+    },
+    "Beef": {
+        "path": "data/raw/UCRArchive_2018/Beef/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            1
+        ],
+        "outlier_labels": [
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "BeetleFly": {
+        "path": "data/raw/UCRArchive_2018/BeetleFly/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            1
+        ],
+        "outlier_labels": [
+            2
+        ]
+    },
+    "BirdChicken": {
+        "path": "data/raw/UCRArchive_2018/BirdChicken/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            1
+        ],
+        "outlier_labels": [
+            2
+        ]
+    },
+    "CBF": {
+        "path": "data/raw/UCRArchive_2018/CBF/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            2
+        ],
+        "outlier_labels": [
+            1,
+            3
+        ]
+    },
+    "Coffee": {
+        "path": "data/raw/UCRArchive_2018/Coffee/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            0
+        ],
+        "outlier_labels": [
+            1
+        ]
+    },
+    "FaceFour": {
+        "path": "data/raw/UCRArchive_2018/FaceFour/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            3
+        ],
+        "outlier_labels": [
+            1,
+            2,
+            4
+        ]
+    },
+    "Ham": {
+        "path": "data/raw/UCRArchive_2018/Ham/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            1
+        ],
+        "outlier_labels": [
+            2
+        ]
+    },
+    "Herring": {
+        "path": "data/raw/UCRArchive_2018/Herring/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            1
+        ],
+        "outlier_labels": [
+            2
+        ]
+    },
+    "Lightning2": {
+        "path": "data/raw/UCRArchive_2018/Lightning2/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            1
+        ],
+        "outlier_labels": [
+            -1
+        ]
+    },
+    "Lightning7": {
+        "path": "data/raw/UCRArchive_2018/Lightning7/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            3
+        ],
+        "outlier_labels": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+        ]
+    },
+    "Meat": {
+        "path": "data/raw/UCRArchive_2018/Meat/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            2
+        ],
+        "outlier_labels": [
+            1,
+            3
+        ]
+    },
+    "MedicalImages": {
+        "path": "data/raw/UCRArchive_2018/MedicalImages/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            5
+        ],
+        "outlier_labels": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10
+        ]
+    },
+    "MoteStrain": {
+        "path": "data/raw/UCRArchive_2018/MoteStrain/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            1
+        ],
+        "outlier_labels": [
+            2
+        ]
+    },
+    "Plane": {
+        "path": "data/raw/UCRArchive_2018/Plane/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            5
+        ],
+        "outlier_labels": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7
+        ]
+    },
+    "Strawberry": {
+        "path": "data/raw/UCRArchive_2018/Strawberry/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            1
+        ],
+        "outlier_labels": [
+            2
+        ]
+    },
+    "ToeSegmentation1": {
+        "path": "data/raw/UCRArchive_2018/ToeSegmentation1/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            0
+        ],
+        "outlier_labels": [
+            1
+        ]
+    },
+    "ToeSegmentation2": {
+        "path": "data/raw/UCRArchive_2018/ToeSegmentation2/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            0
+        ],
+        "outlier_labels": [
+            1
+        ]
+    },
+    "Trace": {
+        "path": "data/raw/UCRArchive_2018/Trace/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            1
+        ],
+        "outlier_labels": [
+            2,
+            3,
+            4
+        ]
+    },
+    "TwoLeadECG": {
+        "path": "data/raw/UCRArchive_2018/TwoLeadECG/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            1
+        ],
+        "outlier_labels": [
+            2
+        ]
+    },
+    "Wine": {
+        "path": "data/raw/UCRArchive_2018/Wine/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            1
+        ],
+        "outlier_labels": [
+            2
+        ]
+    },
+    "Symbols": {
+        "path": "data/raw/UCRArchive_2018/Symbols/",
+        "file_extension": ".tsv",
+        "csv_options": {
+            "delim_whitespace": true,
+            "header": null
+        },
+        "normal_labels": [
+            6
+        ],
+        "outlier_labels": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    }
+}
