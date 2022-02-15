@@ -30,7 +30,7 @@ Follow the steps below to reproduce the results of TSOD. We give the random seed
 	
 1. Install dependencies.
 
-    	conda create -n tsod python=3.8 pandas=1.3.3 scikit-learn=1.0 numexpr=2.7.3 jupyter
+    	conda create -n tsod python=3.7 pandas=1.3.3 scikit-learn=1.0 numexpr=2.7.3 jupyter numpy=1.21.5
 		conda activate tsod
 		pip install tsfresh dtaidistance
     	pip install git+https://github.com/anon-repository/tsvdd.git@main
