@@ -55,7 +55,7 @@ def main():
     ## Outlier Detection Experiment ##
     ##################################
     input_files = ["ArrowHead", "CBF", "ChlorineConcentration", "ECG200", "ECGFiveDays", "GunPoint", "Ham", "Herring",
-                   "Lightning2", "MoteStrain", "Strawberry", "Symbols", "ToeSegmentation1", "ToeSegmentation2", "TwoLeadECG", "Wafer", "Wine"]
+                   "Lightning2", "MoteStrain", "Strawberry", "ToeSegmentation1", "ToeSegmentation2",  "Wafer", "Wine"]
     cv(experiment, input_files, dataset_path="../data/preprocessed/0.05",
        output_path_prefix="../results/0.05/", runs=10)
 
