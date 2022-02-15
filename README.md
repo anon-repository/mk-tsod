@@ -24,8 +24,8 @@ Follow the steps below to reproduce the results of TSOD. We give the random seed
 1. Clone this repository.
 1. Obtain the data from UCR per instructions on their [webpage](https://www.cs.ucr.edu/%7Eeamonn/time_series_data_2018/).
 
-    	cp UCRArchive_2018.zip tsod/data/raw/
-		cd tsod/data/raw
+    	cp UCRArchive_2018.zip tsod-svdd/data/raw/
+		cd tsod-svdd/data/raw
 		unzip UCRArchive_2018.zip (requires password)
 	
 1. Install dependencies.
@@ -37,23 +37,23 @@ Follow the steps below to reproduce the results of TSOD. We give the random seed
 	
 1. Create train data / CV folds for outlier detection.
 
-        cd tsod/src
+        cd tsod-svdd/src
 	    python preprocess.py
 	
 1. Create data for runtime experiments.
 
-        cd tsod/src
+        cd tsod-svdd/src
 		python preprocess_runtime.py
 	
 1. Run the algorithm.
 
-		cd tsod/src
+		cd tsod-svdd/src
 		python run.py
 		# to run runtime experiments, uncomment the code in `run.py`.
 	
 1. View the results.
 
-		cd tsod
+		cd tsod-svdd
 		jupyter notebook
 		# open notebooks/visualize.ipynb
 
